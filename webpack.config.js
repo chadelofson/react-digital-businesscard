@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   "output": {
     "filename": "[name].pack.js"
@@ -21,5 +23,10 @@ module.exports = {
   },
   "entry": {
     "index": "./index"
+  },
+  devServer: {
+    contentBase: '.',
+    compress: true,
+    port: 9000
   }
 };
