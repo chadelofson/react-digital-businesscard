@@ -10,12 +10,24 @@ body {
     align-items: center;
 }
 
+/*************************************
+*                                    *
+* Digital Business Card Container    *
+*                                    *
+**************************************/
+
 .digital-card {
     width: 317px;
     background: #1a1b21;
     margin: 50px auto;
     border-radius: 1em;
 }
+
+/**************************
+*                         *
+* Profile Section         *
+*                         *
+***************************/
 
 .profile {
     display: flex;
@@ -54,8 +66,6 @@ body {
 }
 
 .profile--connect {
-    /* margin: 0; */
-    /* padding: 0; */
     display: flex;
     justify-content: center;
     gap: 1.25em;
@@ -72,6 +82,11 @@ body {
     background: #5093e2;
 }
 
+.profile--link {
+    border-radius: 6px;
+    padding: 0.75em;
+}
+
 .profile--email,
 .profile--linkedin {
     padding: 0.5em 1.5em;
@@ -80,6 +95,12 @@ body {
     text-decoration: none;
     line-height: 1;
 }
+
+/*******************************
+*                              *
+* Main Content Section         *
+*                              *
+********************************/
 
 .about {
     color: #fff;
@@ -106,6 +127,12 @@ body {
     margin-bottom: 4em;
 }
 
+/*******************************
+*                              *
+* Footer Section               *
+*                              *
+********************************/
+
 .footer {
     height: 4em;
     display: flex;
@@ -114,11 +141,6 @@ body {
     gap: 1.5em;
     background: #161619;
     border-radius: 0 0 1em 1em;
-}
-
-.profile--link {
-    border-radius: 6px;
-    padding: 0.75em;
 }
 
 .icon {
